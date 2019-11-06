@@ -1,8 +1,8 @@
-/*#include<iostream>
+#include<iostream>
 #include<iterator>
 #include<vector>
 
-/*int main() {
+int main() {
 	
 	std::vector<int> x;
 	std::vector<float> newx;
@@ -20,7 +20,7 @@
 				std::istream_iterator<int> xin{ std::cin };
 				++xin;
 				
-				/*
+				
 				std::istream_iterator<char> chk{ std::cin >> std::noskipws };
 				while (*chk != '\n'){
 					
@@ -72,9 +72,9 @@
 	}
 	else { std::cout << "error"; }
 
-}*/
+}
 
-/*int main(int arc, char** arv) {
+int main(int arc, char** arv) {
 	std::vector<float> num;
 	std::cout << "Please, input even number of floats: ";
 	for (std::istream_iterator<float> iit(std::cin);
@@ -82,6 +82,5 @@
 		num.push_back((*iit));
 	}
 }
-*/
 
 
