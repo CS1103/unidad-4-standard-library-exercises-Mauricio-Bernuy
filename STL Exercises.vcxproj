@@ -123,11 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayPermutation.cpp" />
-    <ClCompile Include="Newspaper.cpp" />
+    <ClInclude Include="catch.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="catch.hpp" />
+    <ClCompile Include="3 Endians.cpp" />
+    <ClCompile Include="DNA.cpp" />
+    <ClCompile Include="football.cpp" />
+    <ClCompile Include="ID.cpp" />
+    <ClCompile Include="OpenSrc.cpp" />
+    <ClCompile Include="quicksort.cpp" />
+    <ClCompile Include="Species.cpp" />
+    <ClCompile Include="train.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

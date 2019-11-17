@@ -74,7 +74,7 @@ int main() {
 
 }
 
-int main(int arc, char** arv) {
+/*int main(int arc, char** arv) {
 	std::vector<float> num;
 	std::cout << "Please, input even number of floats: ";
 	for (std::istream_iterator<float> iit(std::cin);
@@ -84,3 +84,4 @@ int main(int arc, char** arv) {
 }
 
 
+*/
